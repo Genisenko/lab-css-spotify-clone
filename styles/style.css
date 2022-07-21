@@ -6,3 +6,33 @@ Green: #00B172
 White: #FFF
 
 */
+
+html{
+    margin: 0;
+}
+
+#sectoin-1{
+    height: 50vw;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    word-spacing: 2rem;
+}
+
+.spotify-logo{
+
+    background-size: cover;
+}
+
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    column-gap: 5px;
+    
+  
+}
+
+
