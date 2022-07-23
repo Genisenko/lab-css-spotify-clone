@@ -55,6 +55,11 @@ body{
 #first-impresion h1{
     padding: 0px;
     margin: 0px;
+    font-size: 30px ;
+}
+
+#first-impresion h5{
+    font-weight: lighter;
 }
 
 .what-on{
@@ -103,6 +108,7 @@ body{
     text-align: center;
     margin: 0;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 
 .icons-div h5{
@@ -124,9 +130,9 @@ body{
     color: white;
 }
 
-.text.box{
-    padding-left: 10px;
+.text-box{
     padding-top: 10px;
+    
 }
 
 .text-box-title{
@@ -153,9 +159,92 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-left: 0;
 }
 
 .text-box{
     padding-left: 10px;
+}
+
+
+/*
+Reference Sizes:
+h1: 45px
+h2:
+h3:
+h4: 30px
+h5: 16px
+h6:
+*/
+@media (min-width: 460px) and (max-width: 850px){
+    .nav-ul{
+        font-size: 18px;
+        margin-right: 7px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .spotify-logo{
+        height: 43px; 
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    #first-impresion h1{ 
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    #first-impresion h5{ 
+        font-size: 16px;
+        font-weight: lighter;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .what-on h4{ 
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .what-on hr{ 
+        width:245px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .music-icon{ 
+        height: 70px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .icons-div h6{ 
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .icons-div p{ 
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .text-box{ 
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .text-box-title{ 
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 850px){
+    .list-title{ 
+        font-size: 26px;
+    }
 }
